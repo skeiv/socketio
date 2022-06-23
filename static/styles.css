@@ -1,0 +1,77 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.form{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.15);
+    padding: 5px;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.name{
+    height: 35px;
+    background: beige;
+    padding:15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#222;
+
+}
+
+.btn{
+    background: #222;
+    border: none;
+    width: 200px;
+    height: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    color:white;    
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input[type='file'] {
+    width: 500px;
+    cursor: pointer;
+  }
+
+.messages{
+    list-style: none;
+
+}
+
+.messages > li{
+
+    display: flex;
+    align-items: center;    
+}
+.messages > li > img{
+    width: 300px;
+    padding-left:10px;
+}
+.messages > li > span{
+    font-weight: bold;
+    padding-left:10px;
+
+}
+
+.messages > li:nth-child(odd){
+    background-color: rgb(255, 216, 255);
+}
